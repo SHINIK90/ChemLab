@@ -16621,6 +16621,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
+      propertyPath: m_UseSpring
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 7.262
       objectReference: {fileID: 0}
@@ -18735,10 +18740,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 786d778fe65d92e4c8487eea5040138e, type: 2}
+    - target: {fileID: 3541064667189789163, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.59649
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541064668302746762, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3541064668302746774, guid: 63a0ae54b6e85a1409a8270b068676f5,
         type: 3}
-      propertyPath: m_MassScale
-      value: 0.2
+      propertyPath: m_UseSpring
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541064668302746774, guid: 63a0ae54b6e85a1409a8270b068676f5,
         type: 3}
@@ -18755,10 +18770,30 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.74518
       objectReference: {fileID: 0}
+    - target: {fileID: 3541064668341825532, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.61538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541064668394065873, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.61538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541064668442888685, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.59649
+      objectReference: {fileID: 0}
     - target: {fileID: 3541064668460547753, guid: 63a0ae54b6e85a1409a8270b068676f5,
         type: 3}
       propertyPath: m_MassScale
-      value: 0.2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541064668460547753, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_UseSpring
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541064668460547753, guid: 63a0ae54b6e85a1409a8270b068676f5,
         type: 3}
@@ -18774,6 +18809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: 0.58518004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541064668460547757, guid: 63a0ae54b6e85a1409a8270b068676f5,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4291975780640454721, guid: 63a0ae54b6e85a1409a8270b068676f5,
         type: 3}
