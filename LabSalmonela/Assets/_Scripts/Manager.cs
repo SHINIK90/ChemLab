@@ -12,4 +12,8 @@ public class Manager : MonoBehaviour
         InitialItemsCheck[a].SetActive(true);
         Destroy(InitialItems[a]);
     }
+
+    public void Bunsen(float a){
+        //Debug.Log(a);
+    }
 }
