@@ -14,7 +14,7 @@ public class Limpiar : MonoBehaviour
         if (other.tag == "Trapo")
         {
             X++;
-            Debug.Log(X);
+            
             if (X >= 3)
             {
                 Destroy(this.gameObject);
