@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Limpiar : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int X;
+   void Start()
+    {
+        X = 0;
+    }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Mancha")
+        if (other.tag == "Trapo")
         {
-            Debug.Log("Mancha");
-            Destroy(other.gameObject);
+            X++;
+            Debug.Log(X);
+            if (X >= 3)
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }
