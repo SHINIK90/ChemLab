@@ -30,5 +30,8 @@ public class Mechero : MonoBehaviour
         if(other.tag == "Mechero" && InputBridge.Instance.LeftTriggerDown){
             this.transform.GetChild(0).gameObject.SetActive(true);
         }
+        if(other.tag == "Mechero" && InputBridge.Instance.RightTriggerDown){
+            this.transform.GetChild(0).gameObject.SetActive(true);
+        }
     }
 }
