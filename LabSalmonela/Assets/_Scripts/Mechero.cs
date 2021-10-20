@@ -17,8 +17,11 @@ public class Mechero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float r = (knob.transform.eulerAngles.y/360f);
+        float r = ((knob.transform.eulerAngles.y)/240f);
         Debug.Log(r);
+        // if(r > 1){
+        //     r = 1;
+        // }
         Vector3 ScaleChange = new Vector3(0.1655972f * r, 0.59744f * r, 0.1655972f * r);
         flame.transform.localScale = ScaleChange;
 
