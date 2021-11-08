@@ -6,6 +6,7 @@ public class Manager : MonoBehaviour
 {
     public GameObject[] InitialItems;
     public GameObject[] InitialItemsCheck;
+    public GameObject UVLight;
     
 
     public void InitialItemsGrab(int a){
@@ -15,5 +16,9 @@ public class Manager : MonoBehaviour
 
     public void Bunsen(float a){
         //Debug.Log(a);
+    }
+
+    public void UV(){
+        UVLight.SetActive(!UVLight.activeSelf);
     }
 }
