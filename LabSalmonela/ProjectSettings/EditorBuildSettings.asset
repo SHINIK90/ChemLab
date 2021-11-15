@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Maquina.unity
     guid: 2978144546b8b4e41940de18544b75cf
   - enabled: 0
     path: "Assets/Scenes/Lab \xC1ngel.unity"
     guid: 53bc5f90d768e3549bec6105ccf721d3
+  - enabled: 1
+    path: Assets/Scenes/NewLab.unity
+    guid: 52935565052624e5292df85b453af241
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f2f608b6970bd48c0aa03e63012e634e,
       type: 2}
