@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pick up
   - Mechero
+  - Trapo
+  - Mancha
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Restricted
   - Player
   - Grabbable
-  - 
+  - Holder
   - 
   - 
   - 
