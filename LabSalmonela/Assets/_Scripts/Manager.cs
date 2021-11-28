@@ -6,11 +6,13 @@ public class Manager : MonoBehaviour
 {
     public GameObject[] InitialItems;
     public GameObject[] InitialItemsCheck;
+    public GameObject[] InitialItemsCheckTask;
     public GameObject UVLight;
     
 
     public void InitialItemsGrab(int a){
         InitialItemsCheck[a].SetActive(true);
+        InitialItemsCheckTask[a].SetActive(true);
         Destroy(InitialItems[a]);
     }
 
