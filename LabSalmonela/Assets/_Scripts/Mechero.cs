@@ -18,7 +18,7 @@ public class Mechero : MonoBehaviour
     void Update()
     {
         float r = ((knob.transform.eulerAngles.y)/240f);
-        Debug.Log(r);
+        //Debug.Log(r);
         // if(r > 1){
         //     r = 1;
         // }
