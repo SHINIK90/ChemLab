@@ -8,6 +8,8 @@ TagManager:
   - Mechero
   - Trapo
   - Mancha
+  - FxTemporaire
+  - Trigg
   layers:
   - Default
   - TransparentFX
