@@ -10,6 +10,8 @@ TagManager:
   - Mancha
   - FxTemporaire
   - Trigg
+  - Det
+  - agua
   layers:
   - Default
   - TransparentFX
