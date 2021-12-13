@@ -497,15 +497,15 @@ GameObject:
   - component: {fileID: 27810335}
   - component: {fileID: 27810334}
   - component: {fileID: 27810333}
-  - component: {fileID: 27810332}
   - component: {fileID: 27810331}
+  - component: {fileID: 27810332}
   m_Layer: 0
   m_Name: Cacao (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &27810330
 Transform:
   m_ObjectHideFlags: 0
@@ -1185,15 +1185,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98459016}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.21700007, y: 0.18199995, z: -0.37400004}
-  m_LocalScale: {x: 1.1427778, y: 1.142778, z: 1.1427778}
+  m_LocalRotation: {x: 0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 0.0015235912, y: 0.0030081163, z: 0.002750802}
+  m_LocalScale: {x: 0.044644233, y: 0.04464424, z: 0.04464424}
   m_Children:
   - {fileID: 741633551}
   - {fileID: 27810330}
   - {fileID: 1690611888}
-  m_Father: {fileID: 2105833112}
-  m_RootOrder: 3
+  m_Father: {fileID: 1464150176}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &112370503
 GameObject:
@@ -2065,7 +2065,7 @@ RectTransform:
   m_Children:
   - {fileID: 1544065140}
   m_Father: {fileID: 1464150176}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5890,6 +5890,30 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &491365337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 08991dab8acdd489987bc421582df605,
+    type: 3}
+  m_PrefabInstance: {fileID: 1067984726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &491365338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491365337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &506093601
 GameObject:
   m_ObjectHideFlags: 0
@@ -7294,6 +7318,7 @@ GameObject:
   - component: {fileID: 682801680}
   - component: {fileID: 682801686}
   - component: {fileID: 682801685}
+  - component: {fileID: 682801688}
   m_Layer: 0
   m_Name: Embace
   m_TagString: Untagged
@@ -25603,6 +25628,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f83f50217304163933ce8db63c5666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &682801688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682801679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &690184193
 GameObject:
   m_ObjectHideFlags: 0
@@ -26076,15 +26119,15 @@ GameObject:
   - component: {fileID: 741633556}
   - component: {fileID: 741633555}
   - component: {fileID: 741633554}
-  - component: {fileID: 741633553}
   - component: {fileID: 741633552}
+  - component: {fileID: 741633553}
   m_Layer: 0
   m_Name: Cacao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &741633551
 Transform:
   m_ObjectHideFlags: 0
@@ -27282,6 +27325,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knob: {fileID: 1520794441}
   agua: {fileID: 1458156566}
+--- !u!114 &824852690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824852685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &826374854
 GameObject:
   m_ObjectHideFlags: 0
@@ -29592,7 +29653,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 08991dab8acdd489987bc421582df605,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 08991dab8acdd489987bc421582df605,
         type: 3}
@@ -29825,7 +29886,7 @@ Transform:
   m_LocalScale: {x: 0.98194015, y: 0.98194015, z: 0.98194015}
   m_Children: []
   m_Father: {fileID: 1464150176}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1086189202
 BoxCollider:
@@ -31681,6 +31742,24 @@ MonoBehaviour:
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
+--- !u!114 &1283154496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1302390666
 GameObject:
   m_ObjectHideFlags: 0
@@ -37899,6 +37978,7 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.07141352, z: -0.14}
   m_LocalScale: {x: 25.597439, y: 25.597431, z: 25.597431}
   m_Children:
+  - {fileID: 98459017}
   - {fileID: 160004195}
   - {fileID: 1086189201}
   m_Father: {fileID: 1302390667}
@@ -38104,8 +38184,9 @@ Transform:
   m_GameObject: {fileID: 1471782001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.56413, y: 1, z: 1}
   m_Children:
+  - {fileID: 1849037414}
   - {fileID: 1067984727}
   m_Father: {fileID: 2105833112}
   m_RootOrder: 1
@@ -38735,9 +38816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Envase
-
-'
+  m_Text: Envase
 --- !u!222 &1544065142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39359,6 +39438,7 @@ GameObject:
   - component: {fileID: 1604002057}
   - component: {fileID: 1604002056}
   - component: {fileID: 1604002055}
+  - component: {fileID: 1604002062}
   m_Layer: 0
   m_Name: Embace Deteg
   m_TagString: Untagged
@@ -57693,6 +57773,24 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &1604002062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604002053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &1616527118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72486,15 +72584,15 @@ GameObject:
   - component: {fileID: 1690611893}
   - component: {fileID: 1690611892}
   - component: {fileID: 1690611891}
-  - component: {fileID: 1690611890}
   - component: {fileID: 1690611889}
+  - component: {fileID: 1690611890}
   m_Layer: 0
   m_Name: Cacao (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1690611888
 Transform:
   m_ObjectHideFlags: 0
@@ -74366,6 +74464,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848616238}
   m_CullTransparentMesh: 1
+--- !u!1 &1849037413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849037414}
+  - component: {fileID: 1849037419}
+  - component: {fileID: 1849037418}
+  m_Layer: 0
+  m_Name: Cacao (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1849037414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849037413}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0017726185, y: 0.028000027, z: 0.29}
+  m_LocalScale: {x: 0.020039989, y: 0.02004, z: 0.03552371}
+  m_Children: []
+  m_Father: {fileID: 1471782002}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1849037418
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849037413}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6fe4e8e0e2334484aae142fb179ebd5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1849037419
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849037413}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1856488367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75028,8 +75207,9 @@ GameObject:
   - component: {fileID: 1914960733}
   - component: {fileID: 1914960732}
   - component: {fileID: 1914960731}
+  - component: {fileID: 1914960738}
   m_Layer: 11
-  m_Name: Cacao
+  m_Name: Funda Cacao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75048,6 +75228,7 @@ Transform:
   m_Children:
   - {fileID: 489366053}
   - {fileID: 1745554295}
+  - {fileID: 2103930574}
   m_Father: {fileID: 2105833112}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -75223,6 +75404,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914960729}
   m_Mesh: {fileID: 6531154681856834221, guid: dc9ba997118b2447db6d082cd7f8f0e0, type: 3}
+--- !u!114 &1914960738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914960729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9996939, g: 1, b: 0, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1915464284
 GameObject:
   m_ObjectHideFlags: 0
@@ -77199,6 +77398,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2100213394}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2103930573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103930574}
+  - component: {fileID: 2103930575}
+  m_Layer: 11
+  m_Name: TRigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103930574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103930573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1914960730}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2103930575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103930573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.005, y: 0.005, z: 0.007}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2105833111
 GameObject:
   m_ObjectHideFlags: 0
@@ -77229,7 +77472,6 @@ Transform:
   - {fileID: 2145993362}
   - {fileID: 1471782002}
   - {fileID: 1914960730}
-  - {fileID: 98459017}
   m_Father: {fileID: 1932093586}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
