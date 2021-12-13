@@ -37,7 +37,6 @@ public class Lavabo : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("AAAAAAAAAAAAAAA");
         if (other.tag == "Trigg")
         {
             mult = 1;
