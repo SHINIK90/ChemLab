@@ -7,17 +7,20 @@ public class Detergente : MonoBehaviour
     public GameObject tipod;
     public GameObject Water;
     public Material AguaConDetergente;
+    bool TieneTipod;
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Det")
         {
             tipod.SetActive(true);
+            TieneTipod = true;
         }
-        if (other.tag == "agua")
+        if (other.tag == "agua" && TieneTipod == true)
         {
             Renderer matt = Water.GetComponent<Renderer>();
             matt.material = AguaConDetergente;
             tipod.SetActive(false);
+            TieneTipod = false;
         }
     }
 }

@@ -10,9 +10,11 @@ public class Cacao : MonoBehaviour
     public GameObject Cacao2;
     public GameObject Cacao3;
     int cont;
+    bool TieneCacao;
     void Start()
     {
         cont = 0;
+        TieneCacao=false;
     }
 
     // Update is called once per frame
@@ -38,15 +40,17 @@ public class Cacao : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.tag);
         if (other.tag == "Funda")
         {
-            Debug.Log("SAQUENME DE LATINOAMERICA");
+            TieneCacao = true;
             GC.SetActive(true);
         }
-        if (other.tag == "envase")
+        if (other.tag == "envase" && TieneCacao == true)
         {
             GC.SetActive(false);
             cont+=1;
+            TieneCacao = false;
 
         }
     }
