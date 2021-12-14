@@ -12,6 +12,8 @@ TagManager:
   - Trigg
   - Det
   - agua
+  - envase
+  - Funda
   layers:
   - Default
   - TransparentFX
