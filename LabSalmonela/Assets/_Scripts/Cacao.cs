@@ -40,7 +40,7 @@ public class Cacao : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.tag);
+        
         if (other.tag == "Funda")
         {
             TieneCacao = true;
