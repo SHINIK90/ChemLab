@@ -14,6 +14,7 @@ public class Manager : MonoBehaviour
     public GameObject WBStainsText;
     public GameObject BunsenFire;
     public GameObject detergent;
+    public GameObject balanza;
     public GameObject UVLight;
     public GameObject completedText;
     public GameObject[] TMPasos;
@@ -72,6 +73,9 @@ public class Manager : MonoBehaviour
                 break;
             case 4:
                 if(detergent.GetComponent<Detergente>().hasDetergent){stepFinished();}
+                break;
+            case 5:
+                if(balanza.GetComponent<TextMeshProUGUI>().text == "250.0 G"){stepFinished();}
                 break;
             default:
                 break;
