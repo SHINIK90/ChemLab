@@ -41,11 +41,11 @@ public class Cacao : MonoBehaviour
         }
         if(cont == 4)
         {
-            Cacao3.SetActive(true);
+            Cacao4.SetActive(true);
         }
         if(cont == 5)
         {
-            Cacao3.SetActive(true);
+            Cacao5.SetActive(true);
         }
     }
     private void OnTriggerEnter(Collider other)
