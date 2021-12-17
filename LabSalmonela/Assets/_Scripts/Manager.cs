@@ -13,6 +13,7 @@ public class Manager : MonoBehaviour
     public GameObject Stains;
     public GameObject WBStainsText;
     public GameObject BunsenFire;
+    public GameObject detergent;
     public GameObject UVLight;
     public GameObject completedText;
     public GameObject[] TMPasos;
@@ -68,6 +69,9 @@ public class Manager : MonoBehaviour
                 break;
             case 3:
                 if(BunsenFire.activeSelf){stepFinished();}
+                break;
+            case 4:
+                if(detergent.GetComponent<Detergente>().hasDetergent){stepFinished();}
                 break;
             default:
                 break;

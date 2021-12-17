@@ -7,6 +7,7 @@ public class Detergente : MonoBehaviour
     public GameObject tipod;
     public GameObject Water;
     public Material AguaConDetergente;
+    public bool hasDetergent = false;
     bool TieneTipod;
     private void OnTriggerEnter(Collider other)
     {
@@ -21,6 +22,7 @@ public class Detergente : MonoBehaviour
             matt.material = AguaConDetergente;
             tipod.SetActive(false);
             TieneTipod = false;
+            hasDetergent = true;
         }
     }
 }
