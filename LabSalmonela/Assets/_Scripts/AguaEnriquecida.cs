@@ -33,8 +33,6 @@ public class AguaEnriquecida : MonoBehaviour
         
         if (other.tag == "envase")
         {
-            
-            Debug.Log("Tocando envase");
             mult = 0.002f;
         }
     }

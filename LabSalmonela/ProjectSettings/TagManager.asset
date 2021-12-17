@@ -14,6 +14,7 @@ TagManager:
   - agua
   - envase
   - Funda
+  - Entrar
   layers:
   - Default
   - TransparentFX
