@@ -12,6 +12,7 @@ public class Manager : MonoBehaviour
     int currentPaso = 0;
     public GameObject Stains;
     public GameObject WBStainsText;
+    public GameObject BunsenFire;
     public GameObject UVLight;
     public GameObject completedText;
     public GameObject[] TMPasos;
@@ -21,12 +22,7 @@ public class Manager : MonoBehaviour
 
 
     private void Update() {
-        if(InitialItemsCounter == 3){
-            stepFinished();
-        }
-        if(stainCleaned() == 0){
-            stepFinished();
-        }
+        stepStatus();
     }    
 
 
@@ -61,6 +57,21 @@ public class Manager : MonoBehaviour
         currentPaso++;
         Invoke("Completed", 1f);
         Invoke("Start", 3f);
+    }
+    void stepStatus(){
+        switch (currentPaso+1){
+            case 1:
+                if(InitialItemsCounter == 3){stepFinished();}
+                break;
+            case 2:
+                if(stainCleaned() == 0){stepFinished();}
+                break;
+            case 3:
+                if(BunsenFire.activeSelf){stepFinished();}
+                break;
+            default:
+                break;
+        }
     }
     public void UV(){
         UVLight.SetActive(!UVLight.activeSelf);
