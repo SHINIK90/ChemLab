@@ -28,7 +28,7 @@ public class Incubar : MonoBehaviour
         }
         if (other.tag == "Entrar" && TieneEnvase == true)
         {
-            Debug.Log("Oe serrano bobo");
+           // Debug.Log("Oe serrano bobo");
             m_Animator.SetTrigger("Active");
         }
       
