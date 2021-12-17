@@ -8,11 +8,15 @@ public class Incubar : MonoBehaviour
     public bool TieneEnvase = false;
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "envase")
         {
             TieneEnvase = true;
+        }
+        else
+        {
+            TieneEnvase = false;
         }
         
     }
