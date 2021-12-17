@@ -9,6 +9,8 @@ public class Cacao : MonoBehaviour
     public GameObject Cacao1;
     public GameObject Cacao2;
     public GameObject Cacao3;
+    public GameObject Cacao4;
+    public GameObject Cacao5;
     int cont;
     bool TieneCacao;
     void Start()
@@ -20,9 +22,9 @@ public class Cacao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cont == 4)
+        if (cont == 6)
         {
-            cont = 3;
+            cont = 5;
             advertencia.SetActive(true);
         }
         if(cont == 1)
@@ -34,6 +36,14 @@ public class Cacao : MonoBehaviour
             Cacao2.SetActive(true);
         }
         if(cont == 3)
+        {
+            Cacao3.SetActive(true);
+        }
+        if(cont == 4)
+        {
+            Cacao3.SetActive(true);
+        }
+        if(cont == 5)
         {
             Cacao3.SetActive(true);
         }
