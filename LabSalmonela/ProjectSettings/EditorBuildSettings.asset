@@ -11,12 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: "Assets/Scenes/Lab \xC1ngel.unity"
     guid: 53bc5f90d768e3549bec6105ccf721d3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NewLab.unity
     guid: 52935565052624e5292df85b453af241
   - enabled: 0
     path: Assets/Scenes/Laboratorio 2.0.unity
     guid: 21a2939a2f02f0543a598b3e01750a2f
+  - enabled: 1
+    path: "Assets/Scenes/Lab \xE1ngel 1.unity"
+    guid: b4e5ac3f6cea6d34c83b0b420fceabb8
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: cc2f0be5b9ce848519fcf6aaac09f73d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f2f608b6970bd48c0aa03e63012e634e,
       type: 2}
