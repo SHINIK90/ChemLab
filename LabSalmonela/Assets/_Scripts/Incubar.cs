@@ -8,9 +8,8 @@ public class Incubar : MonoBehaviour
     public bool TieneEnvase = false;
     public GameObject cerrar;
 
-
-    private void OnTriggerStay(Collider other)
-    {
+    private void OnTriggerEnter(Collider other)
+    {    
         Debug.Log(other.tag);
         if (other.tag == "envase")
         {
@@ -22,10 +21,6 @@ public class Incubar : MonoBehaviour
             TieneEnvase = false;
             cerrar.SetActive(false);
         }
-        
-    }
-    private void OnTriggerEnter(Collider other)
-    {
         if (other.tag == "Entrar" && TieneEnvase == true)
         {
             // Debug.Log("Oe serrano bobo");
