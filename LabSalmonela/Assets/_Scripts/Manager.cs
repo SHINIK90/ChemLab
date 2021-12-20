@@ -5,6 +5,10 @@ using TMPro;
 
 public class Manager : MonoBehaviour
 {
+    [SerializeField]
+    public GameObject[][]outlines;
+
+
     public GameObject[] InitialItems;
     public GameObject[] InitialItemsCheck;
     public GameObject[] InitialItemsCheckTask;
@@ -20,6 +24,7 @@ public class Manager : MonoBehaviour
     public GameObject[] TMPasos;
     public GameObject[] WBPasos;
     public GameObject WBCompleted;
+    
 
 
 
@@ -59,6 +64,8 @@ public class Manager : MonoBehaviour
         currentPaso++;
         Invoke("Completed", 1f);
         Invoke("Start", 3f);
+        updateOutlines(currentPaso - 1, true);
+        updateOutlines(currentPaso - 2, false);
     }
     void stepStatus(){
         switch (currentPaso+1){
@@ -83,5 +90,12 @@ public class Manager : MonoBehaviour
     }
     public void UV(){
         UVLight.SetActive(!UVLight.activeSelf);
+    }
+    void updateOutlines(int a, bool b)
+    {
+        foreach (GameObject i in outlines[a])
+        {
+            i.GetComponent<Outline>().enabled = b;
+        }
     }
 }
