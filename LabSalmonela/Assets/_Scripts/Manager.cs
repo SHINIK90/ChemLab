@@ -9,6 +9,8 @@ public class Manager : MonoBehaviour
     public GameObject[] outlines2;
     public GameObject[] outlines3;
     public GameObject[] outlines4;
+    public GameObject[] outlines5;
+    public GameObject[] outlines6;
     public GameObject[][] outlines;
     public GameObject[] InitialItems;
     public GameObject[] InitialItemsCheck;
@@ -31,6 +33,12 @@ public class Manager : MonoBehaviour
         outlines[1] = outlines2;
         outlines[2] = outlines3;
         outlines[3] = outlines4;
+        outlines[3] = outlines5;
+        outlines[3] = outlines6;
+
+        for(int i = 1; i < outlines.Length; i++){
+            updateOutlines(i,false);
+        }
     }
     private void Update() {
         stepStatus();
@@ -67,8 +75,8 @@ public class Manager : MonoBehaviour
         currentPaso++;
         Invoke("Completed", 1f);
         Invoke("StartStep", 3f);
-        updateOutlines(currentPaso - 1, true);
-        updateOutlines(currentPaso - 2, false);
+        updateOutlines(currentPaso, true);
+        updateOutlines(currentPaso - 1, false);
     }
     void stepStatus(){
         switch (currentPaso+1){
