@@ -13,17 +13,12 @@ public class Incubar : MonoBehaviour
         Debug.Log(other.tag);
         if (other.tag == "envase")
         {
+            Debug.Log("Oe serrano bobo");
             TieneEnvase = true;
             cerrar.SetActive(true);
         }
-        else
-        {
-            TieneEnvase = false;
-            cerrar.SetActive(false);
-        }
         if (other.tag == "Entrar" && TieneEnvase == true)
         {
-            // Debug.Log("Oe serrano bobo");
             m_Animator.SetTrigger("Active");
         }
     }
@@ -31,6 +26,7 @@ public class Incubar : MonoBehaviour
     {  
         if (other.tag == "envase")
         {
+            cerrar.SetActive(false);
             TieneEnvase = false;
         }
       
