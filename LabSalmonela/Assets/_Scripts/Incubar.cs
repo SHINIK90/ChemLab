@@ -20,6 +20,7 @@ public class Incubar : MonoBehaviour
         if (other.tag == "Entrar" && TieneEnvase == true)
         {
             m_Animator.SetTrigger("Active");
+            Destroy(cerrar, 0.01f);
         }
     }
     private void OnTriggerExit(Collider other)
