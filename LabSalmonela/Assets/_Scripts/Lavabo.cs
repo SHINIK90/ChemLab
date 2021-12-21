@@ -16,10 +16,8 @@ public class Lavabo : MonoBehaviour
     {
 
         float Ang = knob.transform.eulerAngles.y;
-       Debug.Log(Ang);
         if(Ang>=91 && Ang < 180)
         {
-            Debug.Log("La llama que llama");
             Val += mult * Time.deltaTime;
             agua.transform.localScale = new Vector3(1.066666f, Val, 1.066666f);
         }
