@@ -27,7 +27,7 @@ public class Manager : MonoBehaviour
     public GameObject[] TMPasos;
     public GameObject[] WBPasos;
     public GameObject WBCompleted;
-    public GameObject incubadora;
+    public Incubar incubadora;
     
     private void Awake() {
         outlines[0] = outlines1;
@@ -97,7 +97,7 @@ public class Manager : MonoBehaviour
                 if(balanza.GetComponent<TextMeshProUGUI>().text == "250.0 G"){stepFinished();}
                 break;
             case 6:
-                //if(incubadora.count == 1) { stepFinished(); }
+                if(incubadora.count == 1) { stepFinished(); }
                 break;
             default:
                 break;
