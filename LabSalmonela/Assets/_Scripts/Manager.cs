@@ -11,7 +11,7 @@ public class Manager : MonoBehaviour
     public GameObject[] outlines4;
     public GameObject[] outlines5;
     public GameObject[] outlines6;
-    public GameObject[][] outlines;
+    public GameObject[][] outlines = new GameObject[8][];
     public GameObject[] InitialItems;
     public GameObject[] InitialItemsCheck;
     public GameObject[] InitialItemsCheckTask;
@@ -28,15 +28,15 @@ public class Manager : MonoBehaviour
     public GameObject[] WBPasos;
     public GameObject WBCompleted;
     
-    private void Start() {
+    private void Awake() {
         outlines[0] = outlines1;
         outlines[1] = outlines2;
         outlines[2] = outlines3;
         outlines[3] = outlines4;
-        outlines[3] = outlines5;
-        outlines[3] = outlines6;
+        outlines[4] = outlines5;
+        outlines[5] = outlines6;
 
-        for(int i = 1; i < outlines.Length; i++){
+        for(int i = 1; i < 6; i++){
             updateOutlines(i,false);
         }
     }
